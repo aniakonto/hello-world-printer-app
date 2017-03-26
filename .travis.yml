@@ -4,6 +4,4 @@ python:
 install:
   - make deps
 script:
-  - make tests
-after_succes:
-  - make docker_build
+  - make test
